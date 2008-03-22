@@ -9,5 +9,9 @@ fi
 
 PATH=$PATH:$HOME/bin
 
+if [ $TERM = 'linux' ]; then
+    LANG=en_US
+fi
+
 export PATH
 unset USERNAME
