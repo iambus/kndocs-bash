@@ -19,6 +19,7 @@ alias la='ls -a'
 alias l.='ls -d .*'
 alias ll='ls -l'
 alias l1='ls -1'
+alias listall='find .|sort'
 
 alias ..='cd ..'
 alias ...='cd ...'
