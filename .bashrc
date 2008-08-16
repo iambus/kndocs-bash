@@ -27,7 +27,7 @@ alias ...='cd ...'
 alias en='export LANG=en_US.UTF8'
 alias zh='export LANG=zh_CN.UTF8'
 
-alias ls='ls --color'
+alias ls='ls --color=tty'
 alias tcl='rlwrap tclsh'
 alias gvi='vi -g'
 alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
