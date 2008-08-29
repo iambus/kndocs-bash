@@ -22,7 +22,7 @@ alias l1='ls -1'
 alias listall='find .|sort'
 
 alias ..='cd ..'
-alias ...='cd ...'
+alias ...='cd ../..'
 
 alias en='export LANG=en_US.UTF8'
 alias zh='export LANG=zh_CN.UTF8'
