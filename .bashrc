@@ -32,6 +32,8 @@ alias tcl='rlwrap tclsh'
 alias gvi='vi -g'
 alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
 
+alias ds='du -sh'
+
 # load MY bash configuration...
 
 loadbash() {
