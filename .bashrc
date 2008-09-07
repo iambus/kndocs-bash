@@ -42,8 +42,8 @@ loadbash() {
     fi
 }
 
-if [ `pwd` != ~/konfigs/bash_local ]; then
+if [ `pwd` != ~/konfigs/bash-local ]; then
     loadbash kneo.bash
 fi
-loadbash ~/konfigs/bash_local/kneo.bash
+loadbash ~/konfigs/bash-local/kneo.bash
 
