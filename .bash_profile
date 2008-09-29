@@ -10,7 +10,8 @@ fi
 PATH=$PATH:$HOME/bin
 
 if [ $TERM = 'linux' ]; then
-    LANG=en_US
+    LANG=en_US.UTF-8
+    LANGUAGE=en_US:en
 fi
 
 export PATH
