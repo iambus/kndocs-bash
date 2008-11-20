@@ -16,3 +16,11 @@ fi
 
 export PATH
 unset USERNAME
+
+for i in ~/.bash_profile.d/*sh ; do
+    if [ -r "$i" ]; then
+        echo $i
+    fi
+done
+
+
