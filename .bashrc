@@ -22,6 +22,8 @@ alias ll='ls -l'
 alias l1='ls -1'
 alias listall='find .|sort'
 
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+
 alias ..='cd ..'
 alias ...='cd ../..'
 
