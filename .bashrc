@@ -26,6 +26,7 @@ alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-ti
 
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ....='cd ../../..'
 
 alias en='export LANG=en_US.UTF8'
 alias zh='export LANG=zh_CN.UTF8'
