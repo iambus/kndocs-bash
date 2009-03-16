@@ -1,11 +1,11 @@
 # .bashrc
 
-# User specific aliases and functions
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+
+# User specific aliases and functions
 ## by kneo
 
 HISTSIZE=1000
