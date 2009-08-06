@@ -61,6 +61,7 @@ loadbash() {
     fi
 }
 
+loadbash ~/.bashrc_local
 if [ `pwd` != ~/konfigs/bash-local ]; then
     loadbash kneo.bash
 fi
