@@ -36,4 +36,5 @@ guessvi() {
 }
 
 alias gcd='guesscd'
+alias gi='guessvi'
 
